@@ -13,12 +13,12 @@ console.log({Area})
 ///////////////
 
 /////Percentage  Week 1
-const Week = '40%'
-if (Week >= "80%") {
+const Week1 = '40%'
+if (Week1 >= "80%") {
 	console.log("Pruned")
-} else if (Week <= "79%") {
+} else if (Week1 <= "79%") {
 	console.log("Monitored")
-} else if (Week <= "50%"){
+} else if (Week1 <= "50%"){
 	console.log("Planted")
 }
 ////Week2
@@ -39,3 +39,4 @@ if (Week3 >= "80%") {
 } else if (Week3 <= "50%"){
 	console.log("Planted")
 }
+
